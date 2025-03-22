@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Планування</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Додаємо фонове зображення для всієї сторінки */
+    body {
+      background: url("images/1_back.jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
+    /* Стилізація центрального прямокутника з теплим, неяскравим фоном */
+    main.container {
+      background-color: #f5e6d3; /* Теплий відтінок, наприклад, світлий бежевий */
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 1200px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Шапка з меню -->
+  <header>
+    <nav class="navbar container">
+      <!-- Чекбокс, який будемо перемикати кліком на label -->
+      <input type="checkbox" id="menu-toggle" />
+  
+      <!-- Іконка бургер меню (label для чекбокса) -->
+      <label for="menu-toggle" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+  
+      <!-- Список посилань -->
+      <ul class="menu">
+        <li><a href="index.html">Головна сторінка</a></li>
+        <li><a href="annotation.html">Аннотація</a></li>
+        <li><a href="planning.html">Планування</a></li>
+        <li><a href="methodical.html">Методичні матеріали</a></li>
+        <li><a href="assessment.html">Засоби оцінювання</a></li>
+        <li><a href="didactic.html">Дидактичні матеріали</a></li>
+        <li><a href="videos.html">Відеоматеріали</a></li>
+        <li><a href="student-examples.html">Учнівські приклади</a></li>
+        <li><a href="resources.html">Використанні Інтернет-ресурси</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <section class="hero">
+    <h1>Планування</h1>
+  </section>
+
+  <main class="container">
+    <h2>Плани проєкту</h2>
+    <ul class="links-list">
+      <li><a href="https://docs.google.com/document/d/1U6O0Kj5TfFoikDsAUIql77Yt6T1munfl/edit?tab=t.0" class="button-link" target="_blank" rel="noopener noreferrer">План проєкту</a>
+      </li>
+      <li><a href="#" class="button-link">План реалізації проєкту</a></li>
+    </ul>
+  </main>
+
+
+</body>
+</html>

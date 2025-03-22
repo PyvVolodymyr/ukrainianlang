@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Тема</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Додаємо фонове зображення для всієї сторінки */
+    body {
+      background: url("images/1_back.jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
+    /* Стилізація центрального прямокутника з теплим, неяскравим фоном */
+    main.container {
+      background-color: #f5e6d3; /* Теплий відтінок, наприклад, світлий бежевий */
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 1200px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Шапка з меню -->
+  <header>
+    <nav class="navbar container">
+      <!-- Чекбокс, який будемо перемикати кліком на label -->
+      <input type="checkbox" id="menu-toggle" />
+  
+      <!-- Іконка бургер меню (label для чекбокса) -->
+      <label for="menu-toggle" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+  
+      <!-- Список посилань -->
+      <ul class="menu">
+        <li><a href="index.html">Головна сторінка</a></li>
+        <li><a href="annotation.html">Аннотація</a></li>
+        <li><a href="planning.html">Планування</a></li>
+        <li><a href="methodical.html">Методичні матеріали</a></li>
+        <li><a href="assessment.html">Засоби оцінювання</a></li>
+        <li><a href="didactic.html">Дидактичні матеріали</a></li>
+        <li><a href="videos.html">Відеоматеріали</a></li>
+        <li><a href="student-examples.html">Учнівські приклади</a></li>
+        <li><a href="resources.html">Використанні Інтернет-ресурси</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Блок із фоновим зображенням -->
+  <section class="hero">
+    <h1>Українська мова в житті українців</h1>
+  </section>
+
+  <main class="container">
+    <h2>Телекомунікаційний навчальний проєкт з української мови та читання</h2>
+
+    <!-- Зображення посередині -->
+
+    <!-- Блоки з інформацією про розробників -->
+    <div class="authors-container">
+      <div class="author-box">
+        <h3>Розробник:</h3>
+        <p>
+          Студентка 2 курсу, групи БСОМСЗ<br>
+          Спеціальності 014.13 "музичне мистецтво"<br>
+          факультету дошкільної, початкової освіти та мистецтв імені Валентини Волошиної<br>
+        </p>
+      </div>
+      <div class="author-box">
+        <h3>Науковий керівник:</h3>
+        <p>
+          кандидат педагогічних наук<br>
+          доцент кафедри інноваційних та інформаційних технологій в освіті<br>
+          Кобися Алла Петрівна
+        </p>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
