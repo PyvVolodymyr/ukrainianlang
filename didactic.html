@@ -5,56 +5,84 @@
   <title>Дидактичні матеріали</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    /* Додаємо фонове зображення для всієї сторінки */
+    /* Фонове зображення для всієї сторінки */
     body {
       background: url("images/1_back.jpg") no-repeat center center fixed;
       background-size: cover;
     }
     /* Стилізація центрального прямокутника з теплим, неяскравим фоном */
     main.container {
-      background-color: #f5e6d3; /* Теплий відтінок, наприклад, світлий бежевий */
+      background-color: #f5e6d3; /* Світлий бежевий відтінок */
       padding: 20px;
       margin: 20px auto;
       max-width: 1200px;
       border-radius: 8px;
     }
+    /* Стилі для заголовків і списків */
+    h2 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: disc inside;
+      margin-bottom: 20px;
+    }
+    li {
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+    a {
+      color: #0645AD;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
-
 <body>
 
-    <header>
-        <nav class="navbar container">
-          <!-- Чекбокс, який будемо перемикати кліком на label -->
-          <input type="checkbox" id="menu-toggle" />
-      
-          <!-- Іконка бургер меню (label для чекбокса) -->
-          <label for="menu-toggle" class="menu-icon">
-            <span class="nav-icon"></span>
-          </label>
-      
-          <!-- Список посилань -->
-          <ul class="menu">
-            <li><a href="index.html">Головна сторінка</a></li>
-            <li><a href="annotation.html">Аннотація</a></li>
-            <li><a href="planning.html">Планування</a></li>
-            <li><a href="methodical.html">Методичні матеріали</a></li>
-            <li><a href="assessment.html">Засоби оцінювання</a></li>
-            <li><a href="didactic.html">Дидактичні матеріали</a></li>
-            <li><a href="videos.html">Відеоматеріали</a></li>
-            <li><a href="student-examples.html">Учнівські приклади</a></li>
-            <li><a href="resources.html">Використанні Інтернет-ресурси</a></li>
-          </ul>
-        </nav>
-      </header>
-      
-
+  <header>
+    <nav class="navbar container">
+      <!-- Чекбокс для перемикання мобільного меню -->
+      <input type="checkbox" id="menu-toggle" />
+      <!-- Іконка бургер-меню -->
+      <label for="menu-toggle" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <!-- Список посилань -->
+      <ul class="menu">
+        <li><a href="index.html">Головна сторінка</a></li>
+        <li><a href="annotation.html">Аннотація</a></li>
+        <li><a href="planning.html">Планування</a></li>
+        <li><a href="methodical.html">Методичні матеріали</a></li>
+        <li><a href="assessment.html">Засоби оцінювання</a></li>
+        <li><a href="didactic.html">Дидактичні матеріали</a></li>
+        <li><a href="videos.html">Відеоматеріали</a></li>
+        <li><a href="student-examples.html">Учнівські приклади</a></li>
+        <li><a href="resources.html">Використані Інтернет-ресурси</a></li>
+      </ul>
+    </nav>
+  </header>
+  
   <section class="hero">
     <h1>Дидактичні матеріали</h1>
   </section>
-
+  
   <main class="container">
-    <!-- Поки що порожньо, тільки загальний стиль і меню -->
+    <h2>Інтерактивні вправи та тести</h2>
+    <ul>
+      <li>
+        <a href="https://learningapps.org/" target="_blank">LearningApps</a> – інтерактивні завдання з української мови.
+      </li>
+      <li>
+        <a href="https://quizlet.com/ua" target="_blank">Quizlet</a> – інтерактивні картки для вивчення лексики та граматики.
+      </li>
+      <li>
+        <a href="https://emova.org.ua/" target="_blank">Проєкт «Є-Мова»</a> – інтерактивні матеріали та інформація про українську мову.
+      </li>
+    </ul>
   </main>
 
 </body>
